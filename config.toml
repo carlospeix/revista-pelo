@@ -7,5 +7,5 @@ bind = "0.0.0.0"
 port = 3000
 
 [taxonomies]
-genero = "Generos"
-artista = "Artistas"
+genero = "generos"
+artista = "artistas"
