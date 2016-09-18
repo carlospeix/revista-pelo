@@ -1,6 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "es-ar"
+baseurl = "http://revistapelo.herokuapp.com/"
 title = "Digitalización de la revista Pelo"
+languageCode = "es-ar"
 
 theme = "hugo_theme_robust"
 bind = "0.0.0.0"
