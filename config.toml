@@ -1,3 +1,11 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "es-ar"
 title = "Digitalización de la revista Pelo"
+
+theme = "hugo_theme_robust"
+bind = "0.0.0.0"
+port = 3000
+
+[taxonomies]
+genero = "Generos"
+artista = "Artistas"
