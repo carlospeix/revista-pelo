@@ -9,3 +9,7 @@ port = 3000
 [taxonomies]
 genero = "generos"
 artista = "artistas"
+colaborador = "colaboradores"
+espacio = "espacios"
+disco-libro = "discos-libros"
+programa-radio-tv = "programas-radio-tv"
