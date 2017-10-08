@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.20.2" />
+
+<link rel="apple-touch-icon" href="http://revistapelo.herokuapp.com/images/logo.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://revistapelo.herokuapp.com/index.xml">
+
+<link rel="canonical" href="http://revistapelo.herokuapp.com/">
+
+    
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,700|Montserrat" rel="stylesheet">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Digitalización de la revista Pelo</title>
+    
+    <style>
+      html { font-size: 18px;}@media (max-width: 768px) { html { font-size: 15px; }}body { font-family: 'Noto Sans','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif; font-size: inherit; font-weight: 300; line-height: 1rem; background-color: #eceff1;}p { margin: 0;}a { color: #4caf50;}a:hover { text-decoration: none; color: #388e3c;}ul,ol { margin: 0; padding: 0;}h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: 700;}h1 { font-size: 1.8rem; line-height: 2rem; margin: 1.5rem 0; }h2 { font-size: 1.4rem; line-height: 2rem; margin: 1.5rem 0; }h3 { font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; }h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }main { display: block;}.content-inner { padding: 1rem 2rem;}.content-inner.thin { padding: .5rem 1rem;}@media (max-width: 768px) { .content-inner { padding: 1rem; }}/* Override */.container { position: relative;}/* Parts:layouts */.l-header { background-color: #fff; margin-bottom: 1rem; padding: 1rem 0; text-align: center;}.l-footer { font-size: .8rem; padding: 1.5rem 0;}/* Parts:menu */.p-menu { position: absolute; right: 15px; top: 0;}/* Parts:terms */.p-terms { list-style: none;}.p-terms .terms-title { margin: 0;}.p-terms a { display: inline-block; padding: .25rem 0;}.p-terms.inline li { display: inline-block; font-size: .8rem;}.p-terms.inline li::after { content: ',';}.p-terms.inline li:last-child::after { content: '';}/* Parts:paging */.p-paging { margin-bottom: 1.5rem; text-align: center;}.p-paging a { display: inline-block; padding: 1rem 1.5rem; margin: 0 .5rem; background-color: #cfd8dc; color: #263238;}/* Parts:section */section { margin-bottom: 1.5rem;}section>header { font-size: .8rem; font-weight: 700; margin-bottom: .5rem; text-transform: uppercase;}section>header a { color: #333; text-decoration: underline;}section.article-footer { margin-bottom: 1rem;}section.article-footer>header { margin-bottom: 0;}/* Parts:share */.p-share { min-width: 100%; margin-bottom: 1.5rem;}.p-share .share-inner { display: table; table-layout: fixed; width: 100%; border-spacing: .25rem;}.p-share a { display: table-cell; text-align: center; font-weight: 700; font-size: .7rem; padding: .5rem 0; color: #fff; border-radius: 5px;}.p-share a.ht { background-color: #00a4de; border-bottom: 2px solid #0083b1; }.p-share a.fb { background-color: #3b5998; border-bottom: 2px solid #2f4779; }.p-share a.tw { background-color: #1da1f2; border-bottom: 2px solid #1780c1; }.p-share a.gp { background-color: #dd4b39; border-bottom: 2px solid #b03c2d; }.p-share a.ln { background-color: #00c300; border-bottom: 2px solid #009c00; }.p-share a.ht::before { content: 'Hatena'; }.p-share a.fb::before { content: 'Facebook'; }.p-share a.tw::before { content: 'Twitter'; }.p-share a.gp::before { content: 'Google+'; }.p-share a.ln::before { content: 'LINE'; }/* Parts:logo */.h-logo { font-family: 'Montserrat', sans-serif;}.p-logo { display: inline-block; text-transform: uppercase;}.p-logo a { display: inline-block; font-size: 1.4rem; line-height: 2rem; color: #000;}/* Parts:crumb */.p-crumb ol { list-style: none; margin-bottom: 1rem;}.p-crumb li { display: inline; margin-right: .25rem; font-size: .8rem; color: #607d8b;}.p-crumb li::after { content: '/'; margin-left: .25rem;}.p-crumb li:last-child::after { content: '';}/* Parts:facts */.p-facts { list-style: none; font-size: .8rem; margin-bottom: 1rem;}.p-facts li { display: inline-block; margin-right: .5rem; color: #90a4ae;}.p-facts li i { margin-right: .5rem; color: #cfd8dc;}/* Parts:article */article { background-color: #fff;}article .title { margin: 0; margin-bottom: .5rem; font-weight: 700;}article .title a { color: #000;}article .thumb { display: block; background-image: url(http://revistapelo.herokuapp.com/images/default.jpg); background-position: center; background-size: cover;}article .summary { margin-bottom: .5rem; max-height: 5rem; overflow: hidden;}article.single .thumb { height: 18rem; margin-bottom: 1rem;}@media (max-width: 768px) { article.single .thumb { height: 12rem; }}article.li { margin-bottom: 1rem;}article.li .thumb { height: 7.5rem; margin-bottom: .5rem;}article.li.sm { background-color: transparent; margin-bottom: .5rem;}article.li.sm>header { padding: .5rem 0;}article.li.sm .title { font-size: .8rem; line-height: 1rem; margin-bottom: .25rem;}article.li.sm .p-facts { font-size: .6rem; margin-bottom: 0;}article.li.sm .thumb { float: left; margin-right: .5rem; height: 3rem; width: 3rem;}.article-body h2 { padding: 1rem 0; border-bottom: 2px solid #eceff1;}.article-body h2:first-child { margin-top: 0; }.article-body h3 { color: #428bca;}.article-body h4 { border-left: solid .25rem #428bca; padding: 0 .5rem;}.article-body p { margin: 1.5rem 0; line-height: 1.5rem;}.article-body a { text-decoration: underline;}.article-body ul,.article-body ol { padding-left: 1.5rem;}.article-body code { display: inline-block; font-family: Menlo, consolas, monospace; font-size: .8rem; padding: 0 .5rem; line-height: 1.5rem;}.article-body pre { margin: 1.5rem 0; padding: 0; font-size: .8rem; border: none; border-radius: 0;}.article-body pre code { display: block; line-height: 1rem; padding: 1rem;}.article-body blockquote { margin: 1.5rem 0; padding: .5rem 0; font-size: .8rem; border-top: 1px solid #eceff1; border-bottom: 1px solid #eceff1; color: #607d8b;}.article-body blockquote p { margin: .5rem 0; line-height: 1rem;}.article-body strong { box-shadow: 0 -.5rem 0 0 #90caf9 inset;}.article-body em { font-style: normal; font-weight: 700; color: #03a9f4;}.article-body figure { margin: 1.5rem 0; }.article-body figure img { max-width: 100%; }.article-body figure.left,.article-body figure.right { width: 15rem; height: 12rem; margin-top: 0;}.article-body figure.left { float: left; margin-right: 1rem; }.article-body figure.right { float: right; margin-left: 1rem; }@media (max-width: 768px) { .article-body figure.left, .article-body figure.right { float: none; margin: 0; width: auto; height: auto; }}.article-body figcaption { padding: .5rem 0; font-size: .8rem; text-align: center;}.article-body figcaption a { color: #263238;}
+      
+      
+    </style>
+  </head>
+
+  <body>
+    
+    <main>
+      <div class="container">
+      <div class="row" style="background-color: white;">
+        <div class="col-md-3" style="background-color: #B12C1B; width: 215px;">
+          <img src="/images/logo-150.jpg" />
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Archivo histórico</b></a>
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Listado por año</b></a>
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Buscador</b></a>
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Staff</b></a>
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Pelo: ayer y hoy</b></a>
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Otros materiales</b></a>
+          <p>&nbsp;</p>
+          <a href="/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>Contacto</b></a>
+          <hr />
+          <small style="color: white;">Desarrollado por</small>
+          <p>&nbsp;</p>
+          <img src="/images/logo-unq.jpg" />
+          <p>&nbsp;</p>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="title">Número 508</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/images/tapa/025.jpg" />
+              <ul class="p-facts">
+                <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2001-01-01T00:00:00JST">2001</time></li>
+              </ul>
+              <p><a href="/">Descargar PDF</a></p>
+              <p><a href="/">Descargar Póster</a></p>
+            </div>
+            <div class="col-md-8">
+              <p>Edición Especial: Libro del Año 2001 Nota sobre Frank Zappa, Nota a Macy Gray, Crónicas de show y presentaciones de discos. Adiós a George Harrison. El fenómeno de Los Redonditos de Ricota, Entrevista a La Mississippi, Entrevista a Sr. Flavio, Los Destacados de Pelo, Balance 2001, Lanzamientos de discos, Agenda.</p>
+              <p>&nbsp;</p>
+      <section class="article-footer">
+        <header>
+          <a href="http://revistapelo.herokuapp.com/artistas/">ARTISTAS</a>
+        </header>
+        <div>
+          <ul class="p-terms inline">
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-piojos/">Los Piojos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/la-mississippi/">La Mississippi</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/patricio-rey-y-sus-redonditos-de-ricota/">Patricio Rey y sus Redonditos de Ricota</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/le%C3%B3n-gieco/">León Gieco</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/david-leb%C3%B3n/">David Lebón</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/gustavo-santaolalla/">Gustavo Santaolalla</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/rodolfo-garc%C3%ADa/">Rodolfo García</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/oscar-moro/">Oscar Moro</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/moris/">Moris</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/litto-nebbia/">Litto Nebbia</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/erica-garc%C3%ADa/">Erica García</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/frank-zappa/">Frank Zappa</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/lenny-kravitz/">Lenny Kravitz</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/bhaires-rapsoddya/">Bhaires Rapsoddya</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/anthrax/">Anthrax</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/chuck-billy/">Chuck Billy</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/death-angel/">Death Angel</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/exodus/">Exodus</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/chuck-schuldiner/">Chuck Schuldiner</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/control-denied/">Control Denied</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/michael-jackson/">Michael Jackson</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/tool/">Tool</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/danny-carey/">Danny Carey</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/korn/">Korn</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/eminem/">Eminem</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/limp-bizkit/">Limp Bizkit</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/taproot/">Taproot</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/fred-durst/">Fred Durst</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/phil-lipscomb/">Phil Lipscomb</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/jarrod-montague/">Jarrod Montague</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/juan-pablo-rebella/">Juan Pablo Rebella</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/pablo-stoll/">Pablo Stoll</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-mockers/">Los Mockers</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-shakers/">Los Shakers</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/rolling-stones/">Rolling Stones</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/escala-musical/">Escala Musical</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/billy-bond/">Billy Bond</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sandro/">Sandro</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/richard-chapman/">Richard Chapman</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/jimi-hendrix/">Jimi Hendrix</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/eric-clapton/">Eric Clapton</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/editorial-yenny-el-ateneo-buenos-aires/">Editorial Yenny, El Ateneo Buenos Aires</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/metallica/">Metallica</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/jason-newsted/">Jason Newsted</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/rammstein/">Rammstein</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/miguel-cantilo/">Miguel Cantilo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sello-motown/">Sello Motown</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sello-dro/eastwest/">Sello Dro/Eastwest</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/slim-harpo/">Slim Harpo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/howlin-wolf/">Howlin Wolf</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/johnny-guitar-watson/">Johnny &#39;Guitar&#39; Watson</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/edgar-varese/">Edgar Varese</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/igor-stravinsky/">Igor Stravinsky</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/steve-vai/">Steve Vai</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/adrian-belew/">Adrian Belew</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/david-bowie/">David Bowie</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/talking-heads/">Talking Heads</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/king-crimson/">King Crimson</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/the-mothers-of-invention/">The Mothers of Invention</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/warner-records/">Warner Records</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ricardo-mollo/">Ricardo Mollo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/flavio-pedemonti/">Flavio Pedemonti</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/intoxicados/">Intoxicados</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/pity-alvarez/">Pity Alvarez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/viejas-locas/">Viejas Locas</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/abel-meyer/">Abel Meyer</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/jorge-rossi/">Jorge Rossi</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/felipe-barroso/">Felipe Barroso</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/peri-rodr%C3%ADguez/">Peri Rodríguez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/adri%C3%A1n-p%C3%A9rez/">Adrián Pérez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/luis-alfa/">Luis Alfa</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/resistencia-suburbana/">Resistencia Suburbana</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/fito-p%C3%A1ez/">Fito Páez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/charly-garc%C3%ADa/">Charly García</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/celeste-carballo/">Celeste Carballo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/fabiana-cantilo/">Fabiana Cantilo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/peque%C3%B1a-orquesta-reincidentes/">Pequeña Orquesta Reincidentes</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/bersuit-vergarabat/">Bersuit Vergarabat</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sello-epic-records/">Sello Epic Records</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/andrew-slater/">Andrew Slater</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/macy-gray/">Macy Gray</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/claudio-kleiman/">Claudio Kleiman</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/george-harrison/">George Harrison</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/the-beatles/">The Beatles</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ringo-starr/">Ringo Starr</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/billy-preston/">Billy Preston</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/klaus-voormann/">Klaus Voormann</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ravi-shankar/">Ravi Shankar</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/john-lennon/">John Lennon</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/paul-mccartney/">Paul McCartney</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sr-flavio/">Sr Flavio</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-fabulosos-cadillacs/">Los Fabulosos Cadillacs</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/blues-special-band/">Blues Special Band</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/rinaldo-rafanelli/">Rinaldo Rafanelli</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/king-size/">King Size</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/eddie-king/">Eddie King</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/phil-guy/">Phil Guy</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/little-mack-simmons/">Little Mack Simmons</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/carlos-johnson/">Carlos Johnson</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/indio-solari/">Indio Solari</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/skay-beilinson/">Skay Beilinson</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sergio-dawi/">Sergio Dawi</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/semilla-bucciarelli/">Semilla Bucciarelli</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sting/">Sting</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sheryl-crow/">Sheryl Crow</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/iron-maiden/">Iron Maiden</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/rob-halford/">Rob Halford</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/beck/">Beck</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/neil-young/">Neil Young</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sean-lennon/">Sean Lennon</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/divididos/">Divididos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/luis-alberto-spinetta/">Luis Alberto Spinetta</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mercedes-sosa/">Mercedes Sosa</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/la-mona-jim%C3%A9nez/">La Mona Jiménez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-pericos/">Los Pericos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/domingo-cavallo/">Domingo Cavallo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/musimundo/">Musimundo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/tower-records-argentina/">Tower Records Argentina</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/la-renga/">La Renga</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sony/">Sony</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/emi/">EMI</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/andr%C3%A9s-gim%C3%A9nez/">Andrés Giménez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/animal/">Animal</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/riff/">Riff</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/bob-dylan/">Bob Dylan</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/gorillaz/">Gorillaz</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mark-albarn/">Mark Albarn</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/blur/">Blur</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/osama-bin-laden/">Osama Bin Laden</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/queen-of-the-stone-age/">Queen of the Stone Age</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/cabezones/">Cabezones</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/zeta-bosio/">Zeta Bosio</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/gustavo-cerati/">Gustavo Cerati</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sello-surco/">Sello Surco</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/la-vela-puerca/">La Vela Puerca</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/juanes/">Juanes</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mario-pergolini/">Mario Pergolini</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/fernando-pe%C3%B1a/">Fernando Peña</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/carla-ritrovato/">Carla Ritrovato</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/bobby-flores/">Bobby Flores</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sergio-marchi/">Sergio Marchi</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ruso-verea/">Ruso Verea</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/eduardo-de-la-puente/">Eduardo De La Puente</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/marcelo-gantman/">Marcelo Gantman</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/alfredo-rosso/">Alfredo Rosso</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/baby-etchecopar/">Baby Etchecopar</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/marcelo-fern%C3%A1ndez-bitar/">Marcelo Fernández Bitar</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mimi-maura/">Mimi Maura</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sergio-rotman/">Sergio Rotman</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/dancing-mood/">Dancing Mood</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sindicato-argentino-de-hip-hop/">Sindicato Argentino de Hip Hop</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/carajo/">Carajo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/a.n.i.m.a.l./">A.N.I.M.A.L.</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/miguel-villanova/">Miguel Villanova</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/marcelo-corvata-corval%C3%A1n/">Marcelo &#39;Corvata&#39; Corvalán</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/il-phantasmo/">Il Phantasmo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/abril-siempre/">Abril Siempre</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/red-hot-chili-peppers/">Red Hot Chili Peppers</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sui-g%C3%A9neris/">Sui Géneris</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/catupecu-machu/">Catupecu Machu</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/el-otro-yo/">El Otro Yo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/memphis-la-blusera/">Memphis La Blusera</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-ratones-paranoicos/">Los Ratones Paranoicos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/bruce-dickinson/">Bruce Dickinson</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/john-lee-hooker/">John Lee Hooker</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/polo-corbella/">Polo Corbella</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-abuelos-de-la-nada/">Los Abuelos de la Nada</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ariel-garfield-caldara/">Ariel Garfield Caldara</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/caballeros-de-la-quema/">Caballeros de la Quema</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/joey-ramone/">Joey Ramone</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ramones/">Ramones</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/deftones/">Deftones</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/oasis/">Oasis</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/emir-kusturica/">Emir Kusturica</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/no-smoking-orchestra/">No Smoking Orchestra</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/fish/">Fish</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/villanos/">Villanos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/guasones/">Guasones</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sergio-p%C3%A1ngaro-y-baccarat/">Sergio Pángaro y Baccarat</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/el-soldado/">El Soldado</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-tipitos/">los Tipitos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/nirvana/">Nirvana</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/kurt-cobain/">Kurt Cobain</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/courtney-love/">Courtney Love</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/pearl-jam/">Pearl Jam</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/eddie-vedder/">Eddie Vedder</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-gatos/">Los Gatos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/pappos-blues/">Pappo&#39;s Blues</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/norberto-pappo-napolitano/">Norberto Pappo Napolitano</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/sello-music-hall/">Sello Music Hall</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/jorge-%C3%A1lvarez/">Jorge Álvarez</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/virus/">Virus</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/andr%C3%A9s-calamaro/">Andrés Calamaro</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/smashing-pumpkins/">Smashing Pumpkins</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/illya-kuryaki-and-the-valderramas/">Illya kuryaki and the Valderramas</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/zack-de-la-rocha/">Zack De la Rocha</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/rage-against-the-machine/">Rage Against the Machine</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/dios-los-cr%C3%ADa/">Dios Los Cría</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/callejeros/">Callejeros</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mortaja/">Mortaja</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/muerte-lenta/">Muerte Lenta</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/exorcista/">Exorcista</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/3-estacas/">3 Estacas</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/somaly/">Somaly</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/callej%C3%B3n/">Callejón</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/club-astrolabio/">Club Astrolabio</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/r%C3%A9plica/">Réplica</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mgs/">MGS</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/gerbos/">Gerbos</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/seda-negra/">Seda Negra</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/bajo-tierra/">Bajo Tierra</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/suburbano/">Suburbano</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/arde-paris/">Arde Paris</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/el-medio-kilo/">El Medio Kilo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/el-abuelo/">El Abuelo</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/los-calzones/">Los Calzones</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/cake/">Cake</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/la-saga-de-sayweke/">La Saga de Sayweke</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/mick-jagger/">Mick Jagger</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/elton-john/">Elton John</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/incubus/">Incubus</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/motor-loco/">Motor Loco</a></li>
+            
+            <li><a href="http://revistapelo.herokuapp.com/artistas/ra%C3%BAl-porchetto/">Raúl Porchetto</a></li>
+            
+          </ul>
+        </div>
+      </section>
+             </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; Digitalización de la revista Pelo</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
