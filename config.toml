@@ -2,7 +2,7 @@ baseurl = "http://revistapelo.herokuapp.com/"
 title = "Digitalización de la revista Pelo"
 languageCode = "es-ar"
 
-theme = "hugo_theme_robust"
+theme = "revista-pelo"
 bind = "0.0.0.0"
 port = 3000
 
@@ -10,6 +10,7 @@ port = 3000
 artista = "artistas"
 colaborador = "colaboradores"
 espacio = "espacios"
+evento = "eventos"
 disco-libro = "discos-libros"
 programa-radio-tv = "programas-radio-tv"
 

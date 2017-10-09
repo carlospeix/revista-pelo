@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2" style="background-color: #B12C1B;">
+          {{ partial "sidebar.html" . }}
+        </div>
+        
+        <div class="col-md-9 main">
+
+          <div class="row" style="background-color: white;">
+            <div class="col-md-12 text-center">
+              <h3 class="row" style="background-color: #B12C1B; color: white;">Archivo por año/número</h3>
+            </div>
+          </div>
+
+          {{ if .Content }}
+            <p>{{ .Content }}</p>
+          {{ end }}
+
+          <div class="row">
+          {{ range $key, $value := .Data.Pages.ByDate }}
+            <div class="col-md-2">
+              <a href="{{ .Permalink }}">Número {{ .Params.Numero }}</a>
+              <a href="{{ .Permalink }}"><img src="/images/thumbnail/{{ .Params.Numero }}.jpg" /></a>
+              <p>{{ .Date.Format "2006" }}</p>
+            </div>
+            <div class="col-md-4">
+              <p class="small" style="margin-top: 25px;">{{ .Summary }}</p>
+            </div>
+            {{ if eq (mod $key 2) 1 }}
+          </div>
+          <div class="row">
+            {{ end }}
+          {{ end }}
+          </div>
+
+        </div>
+
+        <div class="col-md-1" style="background-color: #B12C1B;">
+          <h4 style="color: white;" class="text-center">Años</h4>
+          <a href="/numeros/1972/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>1972</b></a>
+          <a href="/numeros/1977/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>1977</b></a>
+          <a href="/numeros/1978/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>1978</b></a>
+          <a href="/numeros/1989/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>1989</b></a>
+          <a href="/numeros/2001/" class="btn btn-default btn-block" style="background-color: #B12C1B; color: white;"><b>2001</b></a>
+          <p>&nbsp;</p>
+        </div>
+        
+      </div>
+    </div>
+
+{{ partial "footer.html" . }}
