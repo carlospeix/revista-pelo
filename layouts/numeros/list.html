@@ -21,7 +21,7 @@
             {{ $numero := strings.TrimPrefix "0" (strings.TrimPrefix "0" .Params.Numero) }}
             <div class="col-md-2">
               <a href="{{ .Permalink }}">Número {{ $numero }}</a>
-              <a href="{{ .Permalink }}"><img src="{{ .Site.Params.FilesURL }}thumbnail/{{ .Params.Numero }}.jpg" /></a>
+              <a href="{{ .Permalink }}"><img src="{{ .Site.Params.FilesURL }}thumbnail/{{ .Params.Numero }}.jpg" class="img-responsive" alt="Tapa del número {{ $numero }}" /></a>
               <p>{{ .Date.Format .Site.Params.DateFormat }}</p>
             </div>
             <div class="col-md-4">

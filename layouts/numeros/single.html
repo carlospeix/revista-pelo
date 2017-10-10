@@ -15,7 +15,7 @@
             <div class="col-md-3">
               {{ $anio := .Date.Format "2006"}}
 
-              <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg"  class="img-responsive"/>
+              <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg" class="img-responsive" alt="Tapa del número {{ $numero }}" />
               <a href="/numeros/{{ $anio }}"><p>{{ .Date.Format .Site.Params.DateFormat }}</p></a>
               <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}.pdf">Descargar PDF</a></p>
 

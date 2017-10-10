@@ -1,7 +1,7 @@
 title = "Digitalización de la revista Pelo"
 languageCode = "es-ar"
 
-baseurl = "http://revistapelo.herokuapp.com/"
+baseurl = "http://www.revistapelo.com.ar/"
 
 bind = "0.0.0.0"
 port = 3000
