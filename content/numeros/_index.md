@@ -10,6 +10,5 @@ colaboradores = []
 espacios = []
 evento = []
 discos-libros = []
-programas-radio-tv = []
 medios = []
 +++

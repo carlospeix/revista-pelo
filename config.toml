@@ -12,7 +12,7 @@ colaborador = "colaboradores"
 espacio = "espacios"
 evento = "eventos"
 disco-libro = "discos-libros"
-programa-radio-tv = "programas-radio-tv"
+medio = "medios"
 
 [params]
 dateFormat = "2006"
