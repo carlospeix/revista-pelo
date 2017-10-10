@@ -18,7 +18,7 @@
 
           <div class="row">
           {{ range $key, $value := .Data.Pages.ByDate }}
-            {{ $numero := replaceRE "^*0" "" .Params.Numero }}
+            {{ $numero := replaceRE "^0*" "" .Params.Numero }}
             <div class="col-md-2">
               <a href="{{ .Permalink }}">Número {{ $numero }}</a>
               <a href="{{ .Permalink }}"><img src="{{ .Site.Params.FilesURL }}thumbnail/{{ .Params.Numero }}.jpg" class="img-responsive" alt="Tapa del número {{ $numero }}" /></a>

@@ -8,7 +8,7 @@
         
         <div class="col-md-10 main">
 
-          {{ $numero := replaceRE "^*0" "" .Params.Numero }}
+          {{ $numero := replaceRE "^0*" "" .Params.Numero }}
           <h1>Número {{ $numero }}</h1>
 
           <div class="row">
@@ -17,16 +17,16 @@
 
               <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg" class="img-responsive" alt="Tapa del número {{ $numero }}" />
               <a href="/numeros/{{ $anio }}"><p>{{ .Date.Format .Site.Params.DateFormat }}</p></a>
-              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}.pdf">Descargar PDF</a></p>
+              <p>Digital: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}.pdf" target="_blank">Descargar PDF</a></p>
 
               {{ if .Params.Poster1 }}
-              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-1.pdf">Descargar póster {{ .Params.Poster1 }}</a></p>
+              <p>Póster: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-1.pdf" target="_blank">{{ .Params.Poster1 }}</a></p>
               {{ end }}
               {{ if .Params.Poster2 }}
-              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-2.pdf">Descargar póster {{ .Params.Poster2 }}</a></p>
+              <p>Póster: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-2.pdf" target="_blank">{{ .Params.Poster2 }}</a></p>
               {{ end }}
               {{ if .Params.Poster3 }}
-              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-3.pdf">Descargar póster {{ .Params.Poster3 }}</a></p>
+              <p>Póster: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-3.pdf" target="_blank">{{ .Params.Poster3 }}</a></p>
               {{ end }}
             </div>
             <div class="col-md-9">
