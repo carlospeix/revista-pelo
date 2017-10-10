@@ -8,7 +8,8 @@
         
         <div class="col-md-10 main">
 
-          <h1>Número {{ strings.TrimPrefix "0" .Params.Numero }}</h1>
+          {{ $numero := strings.TrimPrefix "0" (strings.TrimPrefix "0" .Params.Numero) }}
+          <h1>Número {{ $numero }}</h1>
 
           <div class="row">
             <div class="col-md-3">
