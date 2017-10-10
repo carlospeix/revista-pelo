@@ -1,5 +1,5 @@
 +++
-title = "Año 1977"
+title = "Números por año"
 date = "1972-04-01"
 numero = "025"
 

@@ -1,6 +1,8 @@
-baseurl = "http://revistapelo.herokuapp.com/"
 title = "Digitalización de la revista Pelo"
 languageCode = "es-ar"
+
+baseurl = "http://revistapelo.herokuapp.com/"
+filesurl = "/images/"
 
 theme = "revista-pelo"
 bind = "0.0.0.0"
