@@ -12,6 +12,7 @@ colaborador = "colaboradores"
 espacio = "espacios"
 evento = "eventos"
 disco-libro = "discos-libros"
+pelicula = "peliculas"
 medio = "medios"
 
 [params]
