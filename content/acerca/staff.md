@@ -21,5 +21,7 @@ title = "Staff"
 
 > #### ***Agradecimientos*** 
 > > Norberto Alfaro: fichaje números 422, 423, 426, 427,428
+
 > > Oscar Castro: fichaje números 401, 404, 405
+
 > > Lía Quevedo: fichaje número 392
