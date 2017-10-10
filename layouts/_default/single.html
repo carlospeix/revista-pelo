@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2" style="background-color: #B12C1B;">
+          {{ partial "sidebar.html" . }}
+        </div>
+        
+        <div class="col-md-10 main">
+          <h1>{{ .Title }}</h1>
+          <div>
+            {{ .Content }}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+{{ partial "footer.html" . }}

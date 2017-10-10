@@ -3,7 +3,6 @@ languageCode = "es-ar"
 
 baseurl = "http://revistapelo.herokuapp.com/"
 
-theme = "revista-pelo"
 bind = "0.0.0.0"
 port = 3000
 
