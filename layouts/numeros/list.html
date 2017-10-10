@@ -22,8 +22,8 @@
           {{ range $key, $value := .Data.Pages.ByDate }}
             <div class="col-md-2">
               <a href="{{ .Permalink }}">Número {{ .Params.Numero }}</a>
-              <a href="{{ .Permalink }}"><img src="{{ .Site.Params.FilesURL }}/thumbnail/{{ .Params.Numero }}.jpg" /></a>
-              <p>{{ .Date.Format "2006" }}</p>
+              <a href="{{ .Permalink }}"><img src="{{ .Site.Params.FilesURL }}thumbnail/{{ .Params.Numero }}.jpg" /></a>
+              <p>{{ .Date.Format .Site.Params.DateFormat }}</p>
             </div>
             <div class="col-md-4">
               <p class="small" style="margin-top: 25px;">{{ .Summary }}</p>

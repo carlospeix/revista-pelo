@@ -2,7 +2,6 @@ title = "Digitalización de la revista Pelo"
 languageCode = "es-ar"
 
 baseurl = "http://revistapelo.herokuapp.com/"
-filesurl = "/images/"
 
 theme = "revista-pelo"
 bind = "0.0.0.0"
@@ -17,4 +16,5 @@ disco-libro = "discos-libros"
 programa-radio-tv = "programas-radio-tv"
 
 [params]
-  dateformat = "2006"
+dateFormat = "2006"
+filesUrl = "/"

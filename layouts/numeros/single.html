@@ -7,13 +7,37 @@
         </div>
         
         <div class="col-md-10 main">
-          <h1>{{ .Title }}</h1>
-          {{ if .Date }}
-          <span class="lead">{{ .Date.Format "2006" }}</span>
-          {{ end }}
-          <div>
-            {{ .Content }}
+
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="title">Número {{ .Params.Numero }}</h1>
+            </div>
           </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg" />
+              <p>{{ .Date.Format .Site.Params.FilesURL }}</p>
+              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}.pdf">Descargar PDF</a></p>
+
+              {{ if .Params.Poster1 }}
+              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-1.pdf">Descargar póster {{ .Params.Poster1 }}</a></p>
+              {{ end }}
+              {{ if .Params.Poster2 }}
+              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-2.pdf">Descargar póster {{ .Params.Poster2 }}</a></p>
+              {{ end }}
+              {{ if .Params.Poster3 }}
+              <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-3.pdf">Descargar póster {{ .Params.Poster3 }}</a></p>
+              {{ end }}
+
+            </div>
+            <div class="col-md-8">
+              <p>Edición Especial: Libro del Año 2001 Nota sobre Frank Zappa, Nota a Macy Gray, Crónicas de show y presentaciones de discos. Adiós a George Harrison. El fenómeno de Los Redonditos de Ricota, Entrevista a La Mississippi, Entrevista a Sr. Flavio, Los Destacados de Pelo, Balance 2001, Lanzamientos de discos, Agenda.</p>
+              <p>&nbsp;</p>
+            </div>
+
+           </div>
+
         </div>
         
       </div>
