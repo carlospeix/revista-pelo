@@ -5,3 +5,17 @@ body {
 .container {
   background-color: #ffffff;
 }
+
+.terms {
+    margin: -.25rem;
+}
+
+.terms a {
+    display: block;
+    float: left;
+    background-color: #333;
+    border-radius: 4px;
+    color: #fff;
+    margin: .25rem;
+    padding: 0 .75rem;
+}

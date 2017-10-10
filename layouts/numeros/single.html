@@ -8,16 +8,14 @@
         
         <div class="col-md-10 main">
 
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">Número {{ .Params.Numero }}</h1>
-            </div>
-          </div>
+          <h1>Número {{ .Params.Numero }}</h1>
 
           <div class="row">
-            <div class="col-md-4">
-              <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg" />
-              <p>{{ .Date.Format .Site.Params.FilesURL }}</p>
+            <div class="col-md-3">
+              {{ $anio := .Date.Format "2006"}}
+
+              <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg"  class="img-responsive"/>
+              <a href="/numeros/{{ $anio }}"><p>{{ .Date.Format .Site.Params.DateFormat }}</p></a>
               <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}.pdf">Descargar PDF</a></p>
 
               {{ if .Params.Poster1 }}
@@ -29,11 +27,29 @@
               {{ if .Params.Poster3 }}
               <p><a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-3.pdf">Descargar póster {{ .Params.Poster3 }}</a></p>
               {{ end }}
-
             </div>
-            <div class="col-md-8">
-              <p>Edición Especial: Libro del Año 2001 Nota sobre Frank Zappa, Nota a Macy Gray, Crónicas de show y presentaciones de discos. Adiós a George Harrison. El fenómeno de Los Redonditos de Ricota, Entrevista a La Mississippi, Entrevista a Sr. Flavio, Los Destacados de Pelo, Balance 2001, Lanzamientos de discos, Agenda.</p>
-              <p>&nbsp;</p>
+            <div class="col-md-9">
+              {{ .Content }}
+
+              {{ $params := .Params }}
+              {{ range $key, $value := $.Site.Taxonomies }}
+              {{ if isset $params $key }}
+              <section>
+                <header>
+                  <!--a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/">{{ $key | upper }}</a-->
+                  <p>{{ $key | upper }}</p>
+                </header>
+                <div>
+                  <ul class="terms">
+                    {{ range (index $params $key) }}
+                    <li style="display: inline-block;"><a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/{{ . | urlize }}/">{{ . }}</a></li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </section>
+              {{ end }}
+              {{ end }}
+
             </div>
 
            </div>
