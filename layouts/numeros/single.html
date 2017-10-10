@@ -8,7 +8,7 @@
         
         <div class="col-md-10 main">
 
-          <h1>Número {{ .Params.Numero }}</h1>
+          <h1>Número {{ strings.TrimLeft "0" .Params.Numero }}</h1>
 
           <div class="row">
             <div class="col-md-3">
