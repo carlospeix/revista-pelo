@@ -6,6 +6,7 @@ title = "Staff"
 
 ### Dirección del Proyecto - Coordinación General
 > Daniel Ripoll (Revista Pelo)
+
 > Daniel Carceglia (UNQ)
 
 ### Estructuración, programación, desarrollo, digitalización
