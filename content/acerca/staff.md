@@ -2,7 +2,7 @@
 title = "Staff"
 +++
 
-# STAFF
+## STAFF
 
 ### Dirección del Proyecto - Coordinación General
 > Daniel Ripoll (Revista Pelo)
