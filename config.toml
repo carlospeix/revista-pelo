@@ -17,4 +17,4 @@ medio = "medios"
 
 [params]
 dateFormat = "2006"
-filesUrl = "/"
+filesUrl = "http://files.revistapelo.com.ar/"
