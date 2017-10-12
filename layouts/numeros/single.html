@@ -9,7 +9,11 @@
         <div class="col-md-10 main">
 
           {{ $numero := replaceRE "^0*" "" .Params.Numero }}
-          <h1>Número {{ $numero }}</h1>
+          <div class="row" style="background-color: white;">
+            <div class="col-md-12">
+              <h3 class="row" style="background-color: #B12C1B; color: white;">&nbsp;&nbsp;&nbsp;Número {{ $numero }}</h3>
+            </div>
+          </div>
 
           <div class="row">
             <div class="col-md-3">

@@ -2,25 +2,29 @@
 title = "Staff"
 +++
 
-## STAFF
+          <div class="row" style="background-color: white;">
+            <div class="col-md-12 text-center">
+              <h3 class="row" style="background-color: #B12C1B; color: white;">STAFF</h3>
+            </div>
+          </div>
 
-### Dirección del Proyecto - Coordinación General
+#### Dirección del Proyecto - Coordinación General
 > Daniel Ripoll (Revista Pelo)
 
 > Daniel Carceglia (UNQ)
 
-### Estructuración, programación, desarrollo, digitalización
+#### Estructuración, programación, desarrollo, digitalización
 
-> #### **Dirección**
+> ##### **Dirección**
 > > Carlos Peix
 
-> #### **Digitalización del material**
+> ##### **Digitalización del material**
 > > Tomás Carceglia
 
-> #### **Base de datos, fichaje técnico de revistas**
+> ##### **Base de datos, fichaje técnico de revistas**
 > > Elizabeth Ambiamonte
 
-> #### ***Agradecimientos*** 
+> ##### ***Agradecimientos*** 
 > > Norberto Alfaro: fichaje números 422, 423, 426, 427,428
 
 > > Oscar Castro: fichaje números 401, 404, 405
