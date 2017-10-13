@@ -7,7 +7,7 @@ title = "Licencia de uso"
               <h3 class="row" style="background-color: #B12C1B; color: white;">LICENCIAS DE USO</h3>
             </div>
           </div>
-          <div class="">
+          <div>
             <p>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a></p>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
           </div>
