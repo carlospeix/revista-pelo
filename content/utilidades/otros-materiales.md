@@ -23,4 +23,4 @@ En caso de que dispongas de números o posters que no están digitalizados o cua
 
 #### Sitio web
 
-Si te interesan las herramientas con las que fue construido este sitio y el código utilizado, por favir revisá la sección [licencia de uso](/acerca/licencia-de-uso/)
+Si te interesan las herramientas con las que fue construido este sitio y el código utilizado, por favor revisá la sección [licencia de uso](/acerca/licencia-de-uso/)

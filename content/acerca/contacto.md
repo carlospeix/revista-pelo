@@ -10,6 +10,6 @@ title = "Contacto"
 
 <br>
 
-- Facebook: <a href="https://www.facebook.com/groups/105005969531135/" target="_blank">Revista Pelo</a>
+- Facebook: <a href="https://www.facebook.com/Revista-Pelo-723711337839915/" target="_blank">Revista Pelo</a>
 - Twitter: <a href="https://twitter.com/RevistaPeloOK" target="_blank">@revistapeloOK</a>
 - Correo electrónico: <a href="mailto:info@revistapelo.com.ar">info@revistapelo.com.ar</a>
