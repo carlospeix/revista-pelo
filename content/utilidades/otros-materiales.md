@@ -17,7 +17,7 @@ title = "Otros materiales"
 ---
 
 #### Material adicional
-En caso de que dispongas de números o posters que no están digitalizados o cualquier material relevante para este archivo, por favor comunicate con nosotos utilizando los [medios de contacto](/acerca/contacto/).
+En caso de que dispongas de números o posters que no están digitalizados o cualquier material relevante para este archivo, por favor comunicate con nosotros utilizando los [medios de contacto](/acerca/contacto/).
 
 ---
 
