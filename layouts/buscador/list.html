@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2" style="background-color: #B12C1B;">
+          {{ partial "sidebar.html" . }}
+        </div>
+        
+        <div class="col-md-10 main">
+          <div class="row" style="background-color: white;">
+            <div class="col-md-12 text-center">
+              <h3 class="row" style="background-color: #B12C1B; color: white;">BUCADOR</h3>
+            </div>
+          </div>
+
+          <h4>Material digitalizado</h4>
+
+          <h5>Acceso a PDFs de todos los números y posters disponibles <a href="http://files.revistapelo.com.ar/pdf/" target="_blank">aquí</a>.</h5>
+
+          <h5>También están disponibles imágenes en baja resolución de las tapas <a href="http://files.revistapelo.com.ar/tapa/" target="_blank">aquí</a>.</h5>
+
+          <hr>
+
+          <h4>Puedes listar el material por:</h4>
+          {{ $params := .Params }}
+          {{ range $key, $value := $.Site.Taxonomies }}
+          <section>
+            <header>
+              <a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/">{{ $key | upper }}</a>
+            </header>
+          </section>
+          {{ end }}
+
+          <hr>
+
+          <h4>Sobre las normas editoriales de la revista PELO</h4>
+
+          <p>Hoy en día, las revistas suelen cumplir ciertas normas editoriales que permiten un mejor aprovechamiento de sus materiales y una rápida ubicación del lugar, fecha y consecutividad numérica de su publicación.</p>
+          <p>La PELO comenzó a publicarse en momentos donde esas características no eran una exigencia para las revistas comerciales o populares. Es así que los lectores podrán encontrar algunas inconsistencias y ausencias llamativas entre los datos editoriales de la publicación, propios de esa informalidad en los requerimientos de edición:</p>
+
+        <ul>
+          <li>La revista no lleva numeración de páginas.</li>
+          <li>En algunos casos no aparece ni en tapa, ni en el interior los datos de publicación (fecha, por ej.) ni de directorio (staff).</li>
+          <li>Incluye el sumario en la tapa.</li>
+        </ul>
+
+
+        </div>
+        
+      </div>
+    </div>
+
+{{ partial "footer.html" . }}

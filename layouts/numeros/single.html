@@ -42,8 +42,7 @@
               {{ if isset $params $key }}
               <section>
                 <header>
-                  <!--a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/">{{ $key | upper }}</a-->
-                  <strong>{{ $key | upper }}</strong>
+                  <a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/">{{ $key | upper }}</a>
                 </header>
                 <div>
                   <ul class="terms">

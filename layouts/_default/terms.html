@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2" style="background-color: #B12C1B;">
+          {{ partial "sidebar.html" . }}
+        </div>
+        
+        <div class="col-md-10 main">
+          <div class="row" style="background-color: white;">
+            <div class="col-md-12 text-center">
+              <h3 class="row" style="background-color: #B12C1B; color: white;">CATEGORÍAS DE FICHAJE</h3>
+            </div>
+          </div>
+
+          <a href="/buscador/">Regresar al buscador</a>
+          <hr>
+
+          <ul class="terms">
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms.Alphabetical }}
+            <li style="display: inline-block;"><a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ humanize $value.Name }} </a></li>
+            {{ end }}
+          </ul>
+
+        </div>
+        
+      </div>
+    </div>
+
+{{ partial "footer.html" . }}
