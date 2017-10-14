@@ -25,7 +25,7 @@ Comunicate con nosotros por las vías de contacto:
 
 - Facebook: [Revista Pelo](https://www.facebook.com/Revista-Pelo-723711337839915/)
 - Twitter: [@revistapeloOK](https://twitter.com/RevistaPeloOK)
-- Correo electrónico: [info@revistapelo.com.ar](info@revistapelo.com.ar)
+- Correo electrónico: <a href="mailto:info@revistapelo.com.ar">info@revistapelo.com.ar</a>
 
 ¡Gracias!
 
