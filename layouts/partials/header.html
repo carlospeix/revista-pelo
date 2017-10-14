@@ -7,7 +7,7 @@
     {{ partial "seo-meta.html" . }}
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{{ .Site.Title }} - {{ .Title }}</title>
-    {{ if eq (getenv "HUGO_ENV") "PROD" }}
+    {{ if ne (getenv "HUGO_ENV") "DEV" }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
     <link href="/css/bootstrap.min.css" rel="stylesheet">
