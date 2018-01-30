@@ -12,13 +12,10 @@ Si querés ser parte de la historia, colaborá con nosotros en la construcción 
 
 Necesitamos los ejemplares:
 
+- 1 2 3 4 5 7 8 9 10
+- 14 16 17 18 19 20 23
 - 91 94
-- 211 278
-- 338 388 394 399 
-- 406 409 416 424 425 434 435 436 437 439
-- 441 443 444 445 446 447 448 449 450
-- 460 463 466 467 468 470 471 472 473 474 475
-- 485 496
+- 338 485 496
 - 504 506
 
 Comunicate con nosotros por las vías de contacto:
