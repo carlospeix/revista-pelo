@@ -8,14 +8,6 @@ title = "Otros materiales"
             </div>
           </div>
 
-#### Material digitalizado
-
-<h5>Acceso a PDFs de todos los números y posters disponibles <a href="http://files.revistapelo.com.ar/pdf/" target="_blank">aquí</a>.</h5>
-
-<h5>También están disponibles imágenes en baja resolución de las tapas <a href="http://files.revistapelo.com.ar/tapa/" target="_blank">aquí</a>.</h5>
-
----
-
 #### Suplementos
 
 La Revista Pelo contó, ocasionalmente, con algunos suplementos que ampliaban reportajes y fotos sobre bandas específicas.
