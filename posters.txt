@@ -17,44 +17,44 @@ X 021, poster 2: Led Zeppelin
 X 022, poster 1: Deep Purple
 X 022, poster 2: The Beatles
 
-025, poster 1: Frank Zappa
-026, poster 1: Jethro Tull
-027, poster 1: Steppenwolf
-028, poster 1: Sly & The Family Stone
+S 025, poster 1: Frank Zappa
+S 026, poster 1: Jethro Tull
+S 027, poster 1: Steppenwolf
+S 028, poster 1: Sly & The Family Stone
 X 029, poster 1: Led Zeppelin
 X 031, poster 1: Rod Stewart
-033, poster 1: Ten Years After
-034, poster 1: Eric Clapton
-037, poster 1: Led Zeppelin
-038, poster 1: Alice Cooper
-039, poster 1: Jimi Hendrix
-041, poster 1: Joe Cocker
-042, poster 1: Janis Joplin
-045, poster 1: Pink Floyd
+S 033, poster 1: Ten Years After
+S 034, poster 1: Eric Clapton
+S 037, poster 1: Led Zeppelin
+S 038, poster 1: Alice Cooper
+S 039, poster 1: Jimi Hendrix
+S 041, poster 1: Joe Cocker
+S 042, poster 1: Janis Joplin
+S 045, poster 1: Pink Floyd
 X 046, poster 1: Uriah Heep
 X 061, poster 1: Ian Anderson
 X 062, poster 1: Eric Clapton
-064, poster 1: Donovan
-065, poster 1: Led Zeppelin
-066, poster 1: Keith Emerson
-072, poster 1: Bob Dylan
-076, poster 1: Yes
-079, poster 1: Rick Wakeman
-089, poster 1: Paul McCartney
-093, poster 1: Queen
-096, poster 1: Carlos Santana
-097, poster 1: Genesis
-098, poster 1: Robert Plant
-099, poster 1: Fleetwood Mac
-101, poster 1: Bob Dylan
-102, poster 1: The Rolling Stones
-103, poster 1: Keith Moon
-109, poster 1: Ginger Baker - Gurvitz Army
-110, poster 1: Electric Light Orchestra
-118, poster 1: Freddie Mercury
-123, poster 1: Kiss 
-157, poster 1: Ultravox
-158, poster 1: John Deacon
+S 064, poster 1: Donovan
+S 065, poster 1: Led Zeppelin
+S 066, poster 1: Keith Emerson
+S 072, poster 1: Bob Dylan
+S 076, poster 1: Yes
+S 079, poster 1: Rick Wakeman
+S 089, poster 1: Paul McCartney
+S 093, poster 1: Queen
+S 096, poster 1: Carlos Santana
+S 097, poster 1: Genesis
+S 098, poster 1: Robert Plant
+S 099, poster 1: Fleetwood Mac
+S 101, poster 1: Bob Dylan
+S 102, poster 1: The Rolling Stones
+S 103, poster 1: Keith Moon
+S 109, poster 1: Ginger Baker - Gurvitz Army
+S 110, poster 1: Electric Light Orchestra
+S 118, poster 1: Freddie Mercury
+S 123, poster 1: Kiss 
+S 157, poster 1: Ultravox
+S 158, poster 1: John Deacon
 159, poster 1: Brian May
 160, poster 1: Blondie
 162, poster 1: J. Geils Band
