@@ -1,0 +1,216 @@
+Estado de posters para cargar en las fichas
+
+006, poster 1: Brian Jones
+006, poster 2: John Lennon
+011, poster 1: Cream
+011, poster 2: George Harrison
+011, poster 3: Jimi Hendrix
+012, poster 1: Joe Cocker
+012, poster 2: Paul McCartney
+015, poster 1: Símbolo de la Paz
+015, poster 2: The Who
+021, poster 1: Ten Years After
+021, poster 2: Led Zeppelin
+022, poster 1: Deep Purple
+022, poster 2: The Beatles
+025, poster 1: Frank Zappa
+026, poster 1: Jethro Tull
+027, poster 1: Steppenwolf
+028, poster 1: Sly & The Family Stone
+029, poster 1: Led Zeppelin
+031, poster 1: Rod Stewart
+033, poster 1: Ten Years After
+034, poster 1: Eric Clapton
+037, poster 1: Led Zeppelin
+038, poster 1: Alice Cooper
+039, poster 1: Jimi Hendrix
+041, poster 1: Joe Cocker
+042, poster 1: Janis Joplin
+045, poster 1: Pink Floyd
+046, poster 1: Uriah Heep
+061, poster 1: Ian Anderson
+062, poster 1: Eric Clapton
+064, poster 1: Donovan
+065, poster 1: Led Zeppelin
+066, poster 1: Keith Emerson
+072, poster 1: Bob Dylan
+076, poster 1: Yes
+079, poster 1: Rick Wakeman
+089, poster 1: Paul McCartney
+093, poster 1: Queen
+096, poster 1: Carlos Santana
+097, poster 1: Genesis
+098, poster 1: Robert Plant
+099, poster 1: Fleetwood Mac
+101, poster 1: Bob Dylan
+102, poster 1: The Rolling Stones
+103, poster 1: Keith Moon
+109, poster 1: Ginger Baker - Gurvitz Army
+110, poster 1: Electric Light Orchestra
+118, poster 1: Freddie Mercury
+123, poster 1: Kiss 
+157, poster 1: Ultravox
+158, poster 1: John Deacon
+159, poster 1: Brian May
+160, poster 1: Blondie
+162, poster 1: J. Geils Band
+163, poster 1: Fantasia
+164, poster 1: Santana
+165, poster 1: Blondie
+166, poster 1: Martha Davis - The Motels
+167, poster 1: Bob Seger
+168, poster 1: AC/DC
+169, poster 1: Van Halen
+170, poster 1: Steve Howe
+171, poster 1: Wonder - Paul McCartney
+173, poster 1: David Lebon
+174, poster 1: BARock
+176, poster 1: Riff
+177, poster 1: Juan Carlos Baglietto
+186, poster 1: Duran Duran
+201, poster 1: Juan Carlos Baglietto
+202, poster 1: Robert Plant
+203, poster 1: Ozzy Osbourne
+205, poster 1: Iron Maiden
+207, poster 1: Charly García
+209, poster 1: Los Twist
+212, poster 1: Duran Duran
+213, poster 1: Alejandro Lerner
+214, poster 1: Los Abuelos de la Nada
+216, poster 1: Quiet Riot
+218, poster 1: Yes
+221, poster 1: Van Halen
+222, poster 1: Rainbow
+223, poster 1: Iron Maiden
+229, poster 1: Iron Maiden
+233, poster 1: INXS
+236, poster 1: ZZ Top
+237, poster 1: Charly Alberti
+248, poster 1: George Michael, Bob Geldof, David Bowie, Bono Vox (U2)
+251, poster 1: Accept / Howard Jones, Charly García, Andrés Calamaro
+254, poster 1: Sting
+257, poster 1: Miguel Mateos
+259, poster 1: G.I.T.
+260, poster 1: Soda Stereo
+261, poster 1: Andrés Calamaro
+262, poster 1: Pedro Aznar, Charly García
+264, poster 1: Thompson Twins
+267, poster 1: Robert Smith
+268, poster 1: Queen
+274, poster 1: Fito Páez
+279, poster 1: Miguel Mateos
+282, poster 1: Luca Prodan
+283, poster 1: Fricción
+284, poster 1: Sting
+286, poster 1: Siouxsie Sioux
+287, poster 1: Queen
+288, poster 1: The Cure
+289, poster 1: Duran Duran
+291, poster 1: A-Ha
+292, poster 1: Enanitos Verdes
+294, poster 1: The Beatles
+295, poster 1: Genesis
+296, poster 1: Siouxsie & The Banshees
+298, poster 1: Pet Shop Boys
+299, poster 1: The Police
+301, poster 1: The Mission
+302, poster 1: The Rolling Stones
+304, poster 1: Virus
+305, poster 1: U2
+309, poster 1: Luca Prodan
+314, poster 1: Sting
+317, poster 1: U2
+321, poster 1: Billy Idol
+323, poster 1: Los Intocables
+324, poster 1: Pet Shop Boys
+325, poster 1: INXS
+327, poster 1: Elton John
+328, poster 1: Rod Stewart
+333, poster 1: Virus
+334, poster 1: Los Fabulosos Cadillacs
+335, poster 1: A-Ha
+336, poster 1: Annie Lennox (Eurythmics)
+337, poster 1: Duran Duran
+340, poster 1: INXS
+341, poster 1: Duran Duran
+342, poster 1: John Lennon
+343, poster 1: The Rolling Stones
+344, poster 1: Robert Smith
+345, poster 1: Rod Stewart
+346, poster 1: Soda Stereo
+347, poster 1: Miguel Mateos
+348, poster 1: Bono Vox (U2)
+349, poster 1: Sting
+350, poster 1: Los Fabulosos Cadillacs
+350, poster 2: Scorpions
+350, poster 3: Living Colour
+351, poster 1: Steve Howe
+352, poster 1: The Rolling Stones
+352, poster 2: Gustavo Cerati
+353, poster 1: Tina Turner
+354, poster 1: Soda Stereo
+355, poster 1: The Rolling Stones
+356, poster 1: Indio Solari
+357, poster 1: Bon Jovi
+358, poster 1: Tears For Fears
+359, poster 1: Charly Alberti
+360, poster 1: Bon Jovi
+361, poster 1: Tin Machine
+362, poster 1: Duran Duran
+363, poster 1: Los Violadores
+364, poster 1: Erasure
+365, poster 1: Bon Jovi
+365, poster 2: Soda Stereo
+365, poster 3: Soda Stereo
+367, poster 1: Ratones Paranoicos
+368, poster 1: Sting
+369, poster 1: Rod Stewart
+370, poster 1: Sinead O’Connor
+371, poster 1: Soda Stereo
+372, poster 1: Bon Jovi
+373, poster 1: Eric Clapton
+374, poster 1: Erasure
+375, poster 1: Axl Rose
+376, poster 1: Charly Alberti
+377, poster 1: Bon Jovi
+377, poster 2: Eric Clapton
+377, poster 3: Billy Idol
+378, poster 1: Eric Clapton
+379, poster 1: Patricio Rey y Sus Redonditos de Ricota
+380, poster 1: Charly García
+381, poster 1: Guns N’ Roses
+382, poster 1: Mick Jagger
+383, poster 1: Sting, Peter Gabriel
+384, poster 1: Rata Blanca
+385, poster 1: Billy Idol/Joe Cocker
+390, poster 1: Poison
+391, poster 1: Los Violadores
+392, poster 1: Ratones Paranoicos
+393, poster 1: Indio Solari
+395, poster 1: Sting / Prince / The Doors / Jimi Hendrix
+398, poster 1: Fito Páez
+400, poster 1: Sui Generis / Almendra / The Police / Soda Stereo / Bon Jovi / The Rolling Stones / John Lennon 
+401, poster 1: Yes
+402, poster 1: Scorpions
+404, poster 1: R.E.M.
+404, poster 2: Black Crowes
+404, poster 3: Guns N’ Roses
+405, poster 1: Robert Smith / Bon Jovi
+407, poster 1: Serú Girán / Los Violadores / Eric Clapton
+410, poster 1: Rata Blanca / Charly García / Patricio Rey y Sus Redonditos de Ricota / Soda Stereo
+411, poster 1: Roxette
+414, poster 1: The Cure / JAF / Heart / Richard Marx
+415, poster 1: Madonna / Fabiana Cantilo / Nirvana / Pink Floyd
+417, poster 1: Depeche Mode / Simple Minds / Iggy Pop / Peter Gabriel
+427, poster 1: Guns N’ Roses
+428, poster 1: Skid Row
+428, poster 2: The Mission
+429, poster 1: Queen
+429, poster 2: Ramones
+431, poster 1: Roxette
+431, poster 2: Fito Páez
+432, poster 1: Soda Stereo
+462, poster 1: INXS 
+462, poster 2: Bryan Adams, Sting, Rod Stewart
+464, poster 1: Stone Temple Pilots
+502, poster 1: Joey Ramone
