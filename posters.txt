@@ -1,24 +1,28 @@
 Estado de posters para cargar en las fichas
 
-006, poster 1: Brian Jones
-006, poster 2: John Lennon
-011, poster 1: Cream
-011, poster 2: George Harrison
-011, poster 3: Jimi Hendrix
-012, poster 1: Joe Cocker
-012, poster 2: Paul McCartney
-015, poster 1: Símbolo de la Paz
-015, poster 2: The Who
-021, poster 1: Ten Years After
-021, poster 2: Led Zeppelin
-022, poster 1: Deep Purple
-022, poster 2: The Beatles
+S significa que está en el FTP
+X significa que está configurado en la ficha
+
+X 006, poster 1: Brian Jones
+X 006, poster 2: John Lennon
+X 011, poster 1: Cream
+X 011, poster 2: George Harrison
+X 011, poster 3: Jimi Hendrix
+X 012, poster 1: Joe Cocker
+X 012, poster 2: Paul McCartney
+X 015, poster 1: Símbolo de la Paz
+X 015, poster 2: The Who
+X 021, poster 1: Ten Years After
+X 021, poster 2: Led Zeppelin
+X 022, poster 1: Deep Purple
+X 022, poster 2: The Beatles
+
 025, poster 1: Frank Zappa
 026, poster 1: Jethro Tull
 027, poster 1: Steppenwolf
 028, poster 1: Sly & The Family Stone
-029, poster 1: Led Zeppelin
-031, poster 1: Rod Stewart
+X 029, poster 1: Led Zeppelin
+X 031, poster 1: Rod Stewart
 033, poster 1: Ten Years After
 034, poster 1: Eric Clapton
 037, poster 1: Led Zeppelin
@@ -27,9 +31,9 @@ Estado de posters para cargar en las fichas
 041, poster 1: Joe Cocker
 042, poster 1: Janis Joplin
 045, poster 1: Pink Floyd
-046, poster 1: Uriah Heep
-061, poster 1: Ian Anderson
-062, poster 1: Eric Clapton
+X 046, poster 1: Uriah Heep
+X 061, poster 1: Ian Anderson
+X 062, poster 1: Eric Clapton
 064, poster 1: Donovan
 065, poster 1: Led Zeppelin
 066, poster 1: Keith Emerson
@@ -115,32 +119,32 @@ Estado de posters para cargar en las fichas
 299, poster 1: The Police
 301, poster 1: The Mission
 302, poster 1: The Rolling Stones
-304, poster 1: Virus
-305, poster 1: U2
+X 304, poster 1: Virus
+X 305, poster 1: U2
 309, poster 1: Luca Prodan
-314, poster 1: Sting
+X 314, poster 1: Sting
 317, poster 1: U2
 321, poster 1: Billy Idol
 323, poster 1: Los Intocables
 324, poster 1: Pet Shop Boys
-325, poster 1: INXS
+X 325, poster 1: INXS
 327, poster 1: Elton John
 328, poster 1: Rod Stewart
-333, poster 1: Virus
+X 333, poster 1: Virus
 334, poster 1: Los Fabulosos Cadillacs
-335, poster 1: A-Ha
-336, poster 1: Annie Lennox (Eurythmics)
+X 335, poster 1: A-Ha
+X 336, poster 1: Annie Lennox (Eurythmics)
 337, poster 1: Duran Duran
 340, poster 1: INXS
-341, poster 1: Duran Duran
-342, poster 1: John Lennon
-343, poster 1: The Rolling Stones
-344, poster 1: Robert Smith
-345, poster 1: Rod Stewart
-346, poster 1: Soda Stereo
-347, poster 1: Miguel Mateos
-348, poster 1: Bono Vox (U2)
-349, poster 1: Sting
+X 341, poster 1: Duran Duran
+X 342, poster 1: John Lennon
+X 343, poster 1: The Rolling Stones
+X 344, poster 1: Robert Smith
+X 345, poster 1: Rod Stewart
+X 346, poster 1: Soda Stereo
+X 347, poster 1: Miguel Mateos
+X 348, poster 1: Bono Vox (U2)
+X 349, poster 1: Sting
 350, poster 1: Los Fabulosos Cadillacs
 350, poster 2: Scorpions
 350, poster 3: Living Colour
@@ -148,8 +152,8 @@ Estado de posters para cargar en las fichas
 352, poster 1: The Rolling Stones
 352, poster 2: Gustavo Cerati
 353, poster 1: Tina Turner
-354, poster 1: Soda Stereo
-355, poster 1: The Rolling Stones
+X 354, poster 1: Soda Stereo
+X 355, poster 1: The Rolling Stones
 356, poster 1: Indio Solari
 357, poster 1: Bon Jovi
 358, poster 1: Tears For Fears
