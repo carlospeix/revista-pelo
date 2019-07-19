@@ -21,7 +21,9 @@ Entre ellos ponemos a disposición
   <a href="http://files.revistapelo.com.ar/suplemento_musicos/008.pdf" target="_blank">número 8</a>.</h5>
 - <h5>Suplementos PELO 
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Bon_Jovi.pdf" target="_blank">Bon Jovi</a>, 
+  <a href="http://files.revistapelo.com.ar/suplemento_pelo/Creedence.pdf" target="_blank">Creedence</a>, 
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Freddie_Mercury.pdf" target="_blank">Freddie Mercury</a>,
+  <a href="http://files.revistapelo.com.ar/suplemento_pelo/Genesis.pdf" target="_blank">Genesis</a>,
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Guns_&_Roses.pdf" target="_blank">Guns & Roses</a>,
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Los_Redondos.pdf" target="_blank">Los Redondos</a>,
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Queen.pdf" target="_blank">Queen</a>,
