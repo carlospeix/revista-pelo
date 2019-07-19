@@ -12,11 +12,7 @@ Si querés ser parte de la historia, colaborá con nosotros en la construcción 
 
 Necesitamos los ejemplares:
 
-- 2 3 4 5 7 8 9 10
-- 14 16 17 18 19 20 23
-- 91
-- 496
-- 504 506
+- 2 91 215 328 446 455 y 496
 
 Comunicate con nosotros por las vías de contacto:
 
