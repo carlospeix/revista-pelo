@@ -30,3 +30,5 @@ title = "Staff"
 > > Oscar Castro: fichaje números 401, 404, 405
 
 > > Lía Quevedo: fichaje número 392
+
+> > Andrés Valle: digitalización números 1, 2 y 91 - Gracias a <a href="http://www.mellotronweb.com.ar/" target="_blank">Mellotron</a>
