@@ -31,4 +31,4 @@ title = "Staff"
 
 > > Lía Quevedo: fichaje número 392
 
-> > Andrés Valle: digitalización números 1, 2 y 91 - Gracias a <a href="http://www.mellotronweb.com.ar/" target="_blank">Mellotron</a>
+> > Andrés Valle: digitalización números 1, 2, 91 y Suplemento Pelo Génesis - Gracias a <a href="http://www.mellotronweb.com.ar/" target="_blank">Mellotron</a>
