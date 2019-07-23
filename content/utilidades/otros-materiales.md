@@ -30,7 +30,20 @@ Entre ellos ponemos a disposición
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Roxette.pdf" target="_blank">Roxette</a>,
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/SUMO.pdf" target="_blank">SUMO</a>,
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Soda_Stereo.pdf" target="_blank">Soda Stereo</a>.</h5>
-
+- <h5>Varios sueltos - en esta categoría hemos agregado material "suelto" que han ido aportando nuestros/as lectores/as 
+  <a href="http://files.revistapelo.com.ar/varios/NitoMestre.jpg" target="_blank">Nito Mestre</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/Porchetto.jpg" target="_blank">Porchetto</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/Virus.jpg" target="_blank">Virus</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/GiraQueenArg.jpg.jpg" target="_blank">Gira Queen Argentina</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/Queen.jpg" target="_blank">Queen</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/FreddieMercuri.jpg" target="_blank">Freddie Mercuri</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/BrianMay.jpg" target="_blank">Brian May</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/BrianMay2.jpg" target="_blank">Brian May (otro)</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/JohnDeacon.jpg" target="_blank">John Deacon</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/DuranDuran.jpg.jpg" target="_blank">Duran Duran</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/PeterGabriel.jpg" target="_blank">Peter Gabriel</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/RodStewart.jpg" target="_blank">Rod Stewart</a>, 
+  <a href="http://files.revistapelo.com.ar/varios/ThePolice.jpg" target="_blank">The Police</a>
 ---
 
 #### Material adicional
