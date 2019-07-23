@@ -12,7 +12,13 @@ Si querés ser parte de la historia, colaborá con nosotros en la construcción 
 
 Necesitamos los ejemplares:
 
-- 2 91 215 328 446 455 y 496
+- Año 1970 - 2
+- Año 1977 - 91
+- Año 1984 - 215 
+- Año 1988 - 328 
+- Año 1993 - 446 y 455
+- Año 1995 - 485
+- Año 1999 - 496
 
 Comunicate con nosotros por las vías de contacto:
 
