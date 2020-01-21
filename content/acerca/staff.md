@@ -32,3 +32,7 @@ title = "Staff"
 > > Lía Quevedo: fichaje número 392
 
 > > Andrés Valle: digitalización números 1, 2, 91 y Suplemento Pelo Génesis - Gracias a <a href="http://www.mellotronweb.com.ar/" target="_blank">Mellotron</a>
+
+> > Luciano Di Salvo: digitalización del número 215
+
+> > Mario Roberto Squilachi: donación del número 328

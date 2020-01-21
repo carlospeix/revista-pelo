@@ -14,8 +14,6 @@ Necesitamos los ejemplares:
 
 - Año 1970 - 2
 - Año 1977 - 91
-- Año 1984 - 215 
-- Año 1988 - 328 
 - Año 1993 - 446 y 455
 - Año 1995 - 485
 - Año 1999 - 496
