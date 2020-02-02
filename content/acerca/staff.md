@@ -37,6 +37,6 @@ title = "Staff"
 
 > > Mario Roberto Squilachi: donación del número 328
 
-> > Jorge Pintos: digitalización de los números 02 y 91.  No dejen de escuchar "Desde la Torre, un programa de Blues" / <a href="www.radiogualeguay.com.ar" target="_blank">Radio Gualeguay AM 1520</a> y FM 104.9 / Sábados a las 21 hs. y repetición Miércoles a las 22 hs.
+> > Jorge Pintos: digitalización de los números 02 y 91.  No dejen de escuchar "Desde la Torre, un programa de Blues" / <a href="http://www.radiogualeguay.com.ar" target="_blank">Radio Gualeguay AM 1520</a> y FM 104.9 / Sábados a las 21 hs. y repetición Miércoles a las 22 hs.
 
 > > Guillermo de la Fuente: digitalización Suplemento "130 Solistas del Rock, Blues & Folk",  número 60
