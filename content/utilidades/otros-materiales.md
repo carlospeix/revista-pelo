@@ -18,8 +18,7 @@ Entre ellos ponemos a disposición
   <a href="http://files.revistapelo.com.ar/suplemento_musicos/002.pdf" target="_blank">número 2</a>, 
   <a href="http://files.revistapelo.com.ar/suplemento_musicos/005.pdf" target="_blank">número 5</a>, 
   <a href="http://files.revistapelo.com.ar/suplemento_musicos/007.pdf" target="_blank">número 7</a>, 
-  <a href="http://files.revistapelo.com.ar/suplemento_musicos/008.pdf" target="_blank">número 8</a>,
-  <a href="http://files.revistapelo.com.ar/pdf/060-Suple.pdf" target="_blank">número 60</a>.
+  <a href="http://files.revistapelo.com.ar/suplemento_musicos/008.pdf" target="_blank">número 8</a>.
   </h5>
 - <h5>Suplementos PELO 
   <a href="http://files.revistapelo.com.ar/suplemento_pelo/Bon_Jovi.pdf" target="_blank">Bon Jovi</a>, 
