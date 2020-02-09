@@ -25,6 +25,8 @@ title = "Staff"
 > > Elizabeth Ambiamonte
 
 > ##### ***Agradecimientos*** 
+> > Sergio Nemirovsky: Revistas 211 -  278 – 338 – 388 – 394 – 399 – 406 – 409 – 416 (incluye Revista Músicos) – 424 – 425 – 434 – 435 (incluye Revista Músicos) – 436 (incluye revista músicos) – 437 (incluye revista músicos) –  439 (incluye revista músicos) – 441 (incluye Revista Músicos) – 443 – 444 (incluye Revista Músicos) – 445 – 447 – 448 – 449 – 450 – 460 – 463 – 466 – 467 – 468 – 470 – 471 (incluye Revista Músicos) – 472 (incluye Revista Músicos) – 473 (incluye Revista Músicos) – 474 (incluye Revista Músicos) – 475 (incluye Revista Músicos) y los siguientes NÚMEROS ESPECIALES: Colección Pelo presenta Charly García; Pelo Festivales 1 – Rock and Pop día x día; Gigantes del Rock – Duran Duran – Power Station - Arcadia; Leyendas – Queen; Leyendas – Freddie Mercury; Tributo a Freddie Mercury & Queen (4 fascículos); Rolling Stones El grito callejero (colección Platinum); Álbum oficial de la gira de Queen (Colección Pelo); Programa de B.A.Rock 1982.
+
 > > Norberto Alfaro: fichaje números 422, 423, 426, 427,428
 
 > > Oscar Castro: fichaje números 401, 404, 405
