@@ -2,11 +2,11 @@
 title = "Archivo histórico"
 +++
 
-          <div class="row" style="background-color: white;">
-            <div class="col-md-12 text-center">
-              <h3 class="row" style="background-color: #B12C1B; color: white;">ARCHIVO HISTÓRICO</h3>
-            </div>
-          </div>
+<div class="row" style="background-color: white;">
+  <div class="col-md-12 text-center">
+    <h3 class="row" style="background-color: #B12C1B; color: white;">ARCHIVO HISTÓRICO</h3>
+  </div>
+</div>
 
 > *"...la civilización que confunde a los relojes con el tiempo, también confunde a la naturaleza con las tarjetas postales.  Pero la vitalidad del mundo, que se burla de cualquier clasificación y está más allá de cualquier explicación, no se queda nunca quieta.  La naturaleza se realiza en movimiento, y también nosotros, sus hijos, que somos lo que somos y a la vez somos lo que hacemos para cambiar lo que somos.  Como decía Paulo Freire, el educador que murió aprendiendo: Somos andando."*
 

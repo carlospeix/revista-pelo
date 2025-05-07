@@ -22,3 +22,8 @@ medio = "medios"
 dateFormat = "2006"
 filesUrl = "http://files.revistapelo.com.ar/"
 siteDescription = "Sitio de la digitalización de la revista Pelo, editada en Buenos Aires"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

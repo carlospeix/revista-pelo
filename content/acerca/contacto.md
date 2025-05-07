@@ -2,11 +2,11 @@
 title = "Contacto"
 +++
 
-          <div class="row" style="background-color: white;">
-            <div class="col-md-12 text-center">
-              <h3 class="row" style="background-color: #B12C1B; color: white;">DATOS DE CONTACTO</h3>
-            </div>
-          </div>
+<div class="row" style="background-color: white;">
+  <div class="col-md-12 text-center">
+    <h3 class="row" style="background-color: #B12C1B; color: white;">DATOS DE CONTACTO</h3>
+  </div>
+</div>
 
 <br>
 

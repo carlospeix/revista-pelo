@@ -2,15 +2,15 @@
 title = "Licencia de uso"
 +++
 
-          <div class="row" style="background-color: white;">
-            <div class="col-md-12 text-center">
-              <h3 class="row" style="background-color: #B12C1B; color: white;">LICENCIAS DE USO</h3>
-            </div>
-          </div>
-          <div>
-            <p>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a></p>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-          </div>
+<div class="row" style="background-color: white;">
+  <div class="col-md-12 text-center">
+    <h3 class="row" style="background-color: #B12C1B; color: white;">LICENCIAS DE USO</h3>
+  </div>
+</div>
+<div>
+  <p>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a></p>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+</div>
 ---
 El código utilizado para construir este sitio también esta disponible con licencia [MIT](https://es.wikipedia.org/wiki/Licencia_MIT) en [este repositorio GitHub](https://github.com/carlospeix/revista-pelo).
 

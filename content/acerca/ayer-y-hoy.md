@@ -2,11 +2,11 @@
 title = "Ayer y hoy"
 +++
 
-          <div class="row" style="background-color: white;">
-            <div class="col-md-12 text-center">
-              <h3 class="row" style="background-color: #B12C1B; color: white;">AYER Y HOY</h3>
-            </div>
-          </div>
+<div class="row" style="background-color: white;">
+  <div class="col-md-12 text-center">
+    <h3 class="row" style="background-color: #B12C1B; color: white;">AYER Y HOY</h3>
+  </div>
+</div>
 
 Hemos completado la digitalización completa de los números editados de la Revista PELO, desde sus inicios en 1970 hasta el cierre del ciclo en 2001.
 
