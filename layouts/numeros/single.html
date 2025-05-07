@@ -19,18 +19,18 @@
             <div class="col-md-3">
               {{ $anio := .Date.Format "2006"}}
 
-              <img src="{{ .Site.Params.FilesURL }}tapa/{{ .Params.Numero }}.jpg" class="img-responsive" alt="Tapa del número {{ $numero }}" />
+              <img src="{{ .Site.Params.FilesUrl }}tapa/{{ .Params.Numero }}.jpg" class="img-responsive" alt="Tapa del número {{ $numero }}" />
               <a href="/numeros/{{ $anio }}"><p>{{ .Date.Format .Site.Params.DateFormat }}</p></a>
-              <p>Digital: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}.pdf" target="_blank">Descargar PDF</a></p>
+              <p>Digital: <a href="{{ .Site.Params.FilesUrl }}pdf/{{ .Params.Numero }}.pdf" target="_blank">Descargar PDF</a></p>
 
               {{ if .Params.Poster1 }}
-              <p>Póster: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-1.pdf" target="_blank">{{ .Params.Poster1 }}</a></p>
+              <p>Póster: <a href="{{ .Site.Params.FilesUrl }}pdf/{{ .Params.Numero }}-poster-1.pdf" target="_blank">{{ .Params.Poster1 }}</a></p>
               {{ end }}
               {{ if .Params.Poster2 }}
-              <p>Póster: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-2.pdf" target="_blank">{{ .Params.Poster2 }}</a></p>
+              <p>Póster: <a href="{{ .Site.Params.FilesUrl }}pdf/{{ .Params.Numero }}-poster-2.pdf" target="_blank">{{ .Params.Poster2 }}</a></p>
               {{ end }}
               {{ if .Params.Poster3 }}
-              <p>Póster: <a href="{{ .Site.Params.FilesURL }}pdf/{{ .Params.Numero }}-poster-3.pdf" target="_blank">{{ .Params.Poster3 }}</a></p>
+              <p>Póster: <a href="{{ .Site.Params.FilesUrl }}pdf/{{ .Params.Numero }}-poster-3.pdf" target="_blank">{{ .Params.Poster3 }}</a></p>
               {{ end }}
             </div>
             <div class="col-md-9">

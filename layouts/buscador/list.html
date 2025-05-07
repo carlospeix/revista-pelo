@@ -98,10 +98,8 @@
 {{ partial "footer.html" . }}
 
 <script type="text/javascript">
-var pdfsFilesDirectory = 'http://files.revistapelo.com.ar/pdf/';
-var tapasFilesDirectory = 'http://files.revistapelo.com.ar/tapa/';
-//var pdfsFilesDirectory = '/pdf/';
-//var tapasFilesDirectory = '/tapa/';
+var pdfsFilesDirectory = '{{ .Site.Params.FilesUrl }}pdf/';
+var tapasFilesDirectory = '{{ .Site.Params.FilesUrl }}tapa/';
 
 $.ajax({url: pdfsFilesDirectory}).then(function(html) {
     // create temporary DOM element
