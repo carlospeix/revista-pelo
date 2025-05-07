@@ -1,7 +1,7 @@
 title = "Archivo histórico digital de la revista Pelo"
 languageCode = "es-ar"
 
-baseurl = "http://www.revistapelo.com.ar/"
+baseUrl = "http://www.revistapelo.com.ar/"
 googleAnalytics = "UA-108028361-1"
 
 bind = "0.0.0.0"
