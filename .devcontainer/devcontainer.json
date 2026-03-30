@@ -1,0 +1,30 @@
+{
+  "name": "Revista Pelo",
+  "build": {
+    "dockerfile": "dockerfile",
+    "args": {
+      "USER_NAME": "user",
+      "USER_UID": "1000",
+      "USER_GID": "1000"
+    }
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/revista-pelo,type=bind",
+  "workspaceFolder": "/revista-pelo",
+  "remoteUser": "user",
+  "forwardPorts": [
+    3000
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Hugo dev server"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "budparr.language-hugo-vscode",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}
