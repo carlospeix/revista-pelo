@@ -2,7 +2,7 @@ title = "Archivo histórico digital de la revista Pelo"
 languageCode = "es-ar"
 
 baseUrl = "http://www.revistapelo.com.ar/"
-googleAnalytics = "UA-108028361-1"
+# googleAnalytics = "UA-108028361-1"
 
 bind = "0.0.0.0"
 port = 3000
@@ -23,7 +23,5 @@ dateFormat = "2006"
 filesUrl = "http://files.revistapelo.com.ar/"
 siteDescription = "Sitio de la digitalización de la revista Pelo, editada en Buenos Aires"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark.renderer]
+unsafe = true

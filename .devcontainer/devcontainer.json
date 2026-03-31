@@ -12,10 +12,10 @@
   "workspaceFolder": "/revista-pelo",
   "remoteUser": "user",
   "forwardPorts": [
-    3000
+    1313
   ],
   "portsAttributes": {
-    "3000": {
+    "1313": {
       "label": "Hugo dev server"
     }
   },
