@@ -8,7 +8,7 @@ title = "Otros materiales"
   </div>
 </div>
 
-#### Suplementos
+### Suplementos
 
 La Revista Pelo contó, ocasionalmente, con algunos suplementos que ampliaban reportajes y fotos sobre bandas específicas.
 
@@ -49,11 +49,11 @@ Entre ellos ponemos a disposición
   </h5>
 ---
 
-#### Material adicional
+### Material adicional
 En caso de que dispongas de números o posters que no están digitalizados o cualquier material relevante para este archivo, por favor comunicate con nosotros utilizando los [medios de contacto](/acerca/contacto/).
 
 ---
 
-#### Sitio web
+### Sitio web
 
 Si te interesan las herramientas con las que fue construido este sitio y el código utilizado, por favor revisá la sección [licencia de uso](/acerca/licencia-de-uso/)
