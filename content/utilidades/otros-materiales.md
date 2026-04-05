@@ -25,7 +25,7 @@ Entre ellos ponemos a disposición
   <a href="{{< filesUrl >}}suplemento_pelo/Creedence.pdf" target="_blank">Creedence</a>, 
   <a href="{{< filesUrl >}}suplemento_pelo/Freddie_Mercury.pdf" target="_blank">Freddie Mercury</a>,
   <a href="{{< filesUrl >}}suplemento_pelo/Genesis.pdf" target="_blank">Genesis</a>,
-  <a href="{{< filesUrl >}}suplemento_pelo/Guns_&_Roses.pdf" target="_blank">Guns & Roses</a>,
+  <a href="{{< filesUrl >}}suplemento_pelo/Guns_&_Roses.pdf" target="_blank">Guns N' Roses</a>,
   <a href="{{< filesUrl >}}suplemento_pelo/Los_Redondos.pdf" target="_blank">Los Redondos</a>,
   <a href="{{< filesUrl >}}suplemento_pelo/Queen.pdf" target="_blank">Queen</a>,
   <a href="{{< filesUrl >}}suplemento_pelo/Roxette.pdf" target="_blank">Roxette</a>,
