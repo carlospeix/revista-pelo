@@ -1,0 +1,35 @@
+services:
+
+  traefik:
+    image: traefik:v3.3
+    restart: unless-stopped
+    command:
+      # --- Entrypoints ---
+      - --entrypoints.web.address=:80
+      - --entrypoints.websecure.address=:443
+      # Redirect all HTTP → HTTPS globally
+      - --entrypoints.web.http.redirections.entrypoint.to=websecure
+      - --entrypoints.web.http.redirections.entrypoint.scheme=https
+      - --entrypoints.web.http.redirections.entrypoint.permanent=true
+      # --- Docker provider ---
+      - --providers.docker=true
+      - --providers.docker.exposedbydefault=false
+      # --- Let's Encrypt TLS-ALPN-01 ---
+      - --certificatesresolvers.letsencrypt.acme.tlsChallenge=true
+      - --certificatesresolvers.letsencrypt.acme.email=changeme@example.com
+      - --certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - letsencrypt:/letsencrypt
+    networks:
+      - proxy
+
+volumes:
+  letsencrypt:
+
+networks:
+  proxy:
+    name: proxy

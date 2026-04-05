@@ -1,0 +1,18 @@
+# Build output (rebuilt inside Docker)
+public/
+.hugo_build.lock
+
+# Dev container
+.devcontainer/
+
+# Git
+.git/
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
