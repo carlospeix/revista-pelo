@@ -36,6 +36,11 @@ rm -rf "$LOCAL_DIR"
 echo "==> Building site with Hugo..."
 hugo
 
+if [[ -f ".htaccess" ]]; then
+  echo "==> Including .htaccess in build output..."
+  cp ".htaccess" "${LOCAL_DIR}/.htaccess"
+fi
+
 echo "==> Build complete."
 
 # ---------------------------------------------------------------------------

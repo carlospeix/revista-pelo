@@ -1,0 +1,17 @@
+Options -Indexes
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files and directories directly.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Route extensionless URLs to the generated index.html files.
+  RewriteRule ^(.+?)/?$ /$1/index.html [L]
+</IfModule>
+
+ErrorDocument 404 /404.html
