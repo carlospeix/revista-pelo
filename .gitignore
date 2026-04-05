@@ -1,3 +1,5 @@
 public/
+sync-public/
 themes-back/
 .hugo_build.lock
+.env

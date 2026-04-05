@@ -7,7 +7,7 @@ ARG USER_GID
 RUN addgroup --gid $USER_GID $USER_NAME && adduser --disabled-password --gecos '' --uid $USER_UID --gid $USER_GID $USER_NAME
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get -y update && \
-    apt-get -y --no-install-recommends install ca-certificates curl git gh unzip make gcc libc6-dev && \
+    apt-get -y --no-install-recommends install ca-certificates curl git gh unzip make gcc libc6-dev lftp rsync && \
     apt-get -y autoremove && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install Hugo extended via prebuilt binary
