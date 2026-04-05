@@ -18,7 +18,7 @@
           <hr>
 
           <div class="row">
-          {{ range $key, $value := .Data.Pages.ByDate }}
+          {{ range $key, $value := .Data.Pages.ByDate.ByParam "Numero" }}
             {{ $numero := replaceRE "^0*" "" .Params.Numero }}
             <div class="col-md-2">
               <a href="{{ .Permalink }}">Número {{ $numero }}</a>
