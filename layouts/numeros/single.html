@@ -47,7 +47,12 @@
                 <div>
                   <ul class="terms">
                     {{ range (index $params $key) }}
-                    <li style="display: inline-block;"><a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/{{ . | urlize }}/">{{ . }}</a></li>
+                    {{ $term := . }}
+                    {{ with $.Site.GetPage (printf "/%s/%s" ($key | urlize) ($term | urlize)) }}
+                    <li style="display: inline-block;"><a href="{{ .RelPermalink }}">{{ $term }}</a></li>
+                    {{ else }}
+                    <li style="display: inline-block;">{{ $term }}</li>
+                    {{ end }}
                     {{ end }}
                   </ul>
                 </div>
