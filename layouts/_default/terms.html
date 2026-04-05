@@ -19,7 +19,7 @@
           <ul class="terms">
             {{ $data := .Data }}
             {{ range $key, $value := .Data.Terms.Alphabetical }}
-            <li style="display: inline-block;"><a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ humanize $value.Name }} </a></li>
+            <li style="display: inline-block;"><a href="{{ $value.Page.RelPermalink }}"> {{ humanize $value.Name }} </a></li>
             {{ end }}
           </ul>
 
