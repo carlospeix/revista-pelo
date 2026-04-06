@@ -62,7 +62,9 @@ mapfile -t DELETE_LIST < <(rsync --archive --checksum --delete \
       "$LOCAL_DIR/" "$SYNC_DIR/" | grep "^del\. " | awk '{print $2}')
 
 echo "  Files to upload: ${#UPLOAD_LIST[@]}"
+for f in "${UPLOAD_LIST[@]}"; do echo "    + $f"; done
 echo "  Files to delete: ${#DELETE_LIST[@]}"
+for f in "${DELETE_LIST[@]}"; do echo "    - $f"; done
 
 if [[ ${#UPLOAD_LIST[@]} -eq 0 && ${#DELETE_LIST[@]} -eq 0 ]]; then
   echo "==> Nothing changed, skipping upload."
