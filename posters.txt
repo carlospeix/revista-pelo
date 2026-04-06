@@ -50,7 +50,7 @@ X 101, poster 1: Bob Dylan
 102, poster 1: The Rolling Stones
 103, poster 1: Keith Moon
 
-X 109, poster 1: Ginger Baker - Gurvitz Army
+X 109, poster 1: Peter 'Ginger' Baker - Gurvitz Army
 X 110, poster 1: Electric Light Orchestra
 X 118, poster 1: Freddie Mercury
 
