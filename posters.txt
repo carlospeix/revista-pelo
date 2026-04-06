@@ -50,7 +50,7 @@ X 101, poster 1: Bob Dylan
 102, poster 1: The Rolling Stones
 103, poster 1: Keith Moon
 
-X 109, poster 1: Ginger Baker - Gurvitz Army
+X 109, poster 1: Peter 'Ginger' Baker - Gurvitz Army
 X 110, poster 1: Electric Light Orchestra
 X 118, poster 1: Freddie Mercury
 
@@ -186,7 +186,7 @@ X 355, poster 1: The Rolling Stones
 378, poster 1: Eric Clapton
 379, poster 1: Patricio Rey y Sus Redonditos de Ricota
 380, poster 1: Charly García
-381, poster 1: Guns N’ Roses
+381, poster 1: Guns N' Roses
 382, poster 1: Mick Jagger
 383, poster 1: Sting, Peter Gabriel
 384, poster 1: Rata Blanca
@@ -202,7 +202,7 @@ X 355, poster 1: The Rolling Stones
 402, poster 1: Scorpions
 404, poster 1: R.E.M.
 404, poster 2: Black Crowes
-404, poster 3: Guns N’ Roses
+404, poster 3: Guns N' Roses
 405, poster 1: Robert Smith / Bon Jovi
 407, poster 1: Serú Girán / Los Violadores / Eric Clapton
 410, poster 1: Rata Blanca / Charly García / Patricio Rey y Sus Redonditos de Ricota / Soda Stereo
@@ -210,7 +210,7 @@ X 355, poster 1: The Rolling Stones
 414, poster 1: The Cure / JAF / Heart / Richard Marx
 415, poster 1: Madonna / Fabiana Cantilo / Nirvana / Pink Floyd
 417, poster 1: Depeche Mode / Simple Minds / Iggy Pop / Peter Gabriel
-427, poster 1: Guns N’ Roses
+427, poster 1: Guns N' Roses
 428, poster 1: Skid Row
 428, poster 2: The Mission
 429, poster 1: Queen
